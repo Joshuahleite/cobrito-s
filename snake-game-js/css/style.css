@@ -1,0 +1,203 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.corpo{
+    background: url("../img/moldura.png");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#pontuacao{
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    font-size: 39px;
+    /* font-family: -apple-system, font-family: 'Staatliches', cursive; */
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+div#board{
+    width: 90vh;
+    height: 90vh;
+background: rgba(255, 255, 255, 0.185);
+display: grid;
+grid-template-columns: repeat(25, 1fr);
+grid-template-rows: repeat(25, 1fr );
+
+}
+
+div.head{
+
+    background: linear-gradient(#7cf082, #b6e481);
+    border: 2px solid #220422;
+    transform: scale(1.02);
+    border-radius: 30px;
+}
+
+div.snake{
+ 
+    background: #66cdaa;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+div.fruta{
+    grid-row-start: 15;
+    grid-column-start: 15;
+    background-image: url(../img/frutas/maça.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+div.fruta{
+    grid-row-start: 15;
+    grid-column-start: 15;
+    background-image: url(../img/frutas/kiwi.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div.fruta{
+    grid-row-start: 15;
+    grid-column-start: 15;
+    background-image: url(../img/frutas/melao.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+div.fruta{
+    grid-row-start: 15;
+    grid-column-start: 15;
+    background-image: url(../img/frutas/blueberry.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+div.fruta{
+    grid-row-start: 15;
+    grid-column-start: 15;
+    background-image: url(../img/frutas/coco.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+div.fruta{
+    grid-row-start: 15;
+    grid-column-start: 15;
+    background-image: url(../img/frutas/laranja.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+div.fruta{
+    grid-row-start: 15;
+    grid-column-start: 15;
+    background-image: url(../img/frutas/limao.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+div.fruta{
+    grid-row-start: 15;
+    grid-column-start: 15;
+    background-image: url(../img/frutas/limao_verde.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+div.fruta{
+    grid-row-start: 15;
+    grid-column-start: 15;
+    background-image: url(../img/frutas/uva.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+div.fruta{
+    grid-row-start: 15;
+    grid-column-start: 15;
+    background-image: url(../img/frutas/roma.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+div.fruta{
+    grid-row-start: 15;
+    grid-column-start: 15;
+    background-image: url(../img/frutas/banana.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+div.fruta{
+    grid-row-start: 15;
+    grid-column-start: 15;
+    background-image: url(../img/frutas/abacate.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+div.fruta{
+    grid-row-start: 15;
+    grid-column-start: 15;
+    background-image: url(../img/frutas/cereja.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+div.fruta{
+    grid-row-start: 15;
+    grid-column-start: 15;
+    background-image: url(../img/frutas/pessego.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+div.fruta{
+    grid-row-start: 15;
+    grid-column-start: 15;
+    background-image: url(../img/frutas/uva.png);
+    background-repeat: no-repeat;
+}
+div.fruta{
+    grid-row-start: 15;
+    grid-column-start: 15;
+    background-image: url(../img/frutas/manga.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+div.fruta{
+    grid-row-start: 15;
+    grid-column-start: 15;
+    background-image: url(../img/frutas/pessego.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+div.fruta{
+    grid-row-start: 15;
+    grid-column-start: 15;
+    background-image: url(../img/frutas/fruta_wmelon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+div.fruta{
+    grid-row-start: 15;
+    grid-column-start: 15;
+    background-image: url(../img/frutas/abacaxi.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* background-image: url(../img/frutas/kiwi.png);
+background-image: url(../img/frutas/melao.png);
+background-image: url(../img/frutas/blueberry.png);
+background-image: url(../img/frutas/coco.png);
+background-image: url(../img/frutas/laranja.png);
+background-image: url(../img/frutas/limao.png);
+background-image: url(../img/frutas/limao_verde.png);
+background-image: url(../img/frutas/uva.png);
+background-image: url(../img/frutas/roma.png);
+background-image: url(../img/frutas/banana.png);
+background-image: url(../img/frutas/abacate.png);
+background-image: url(../img/frutas/cereja.png);
+background-image: url(../img/frutas/pessego.png);
+background-image: url(../img/frutas/uva.png);
+background-image: url(../img/frutas/manga.png);
+background-image: url(../img/frutas/pessego.png);
+background-image: url(../img/frutas/fruta_wmelon.png);
+background-image: url(../img/frutas/abacaxi.png); */
